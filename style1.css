@@ -1,0 +1,63 @@
+.header{
+    background-image: url(img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 151px;
+    padding-bottom: 151px;
+    text-align: center;
+}
+.header h1{
+    margin-bottom: 16px;
+}
+.block{
+    text-align: center;
+}
+.eng-title{
+    font-style: 28px;
+}
+.container{
+	width:856px;
+	margin: 0 auto;
+}
+.intro img{
+    width: 1076px;
+    margin-left: -110px;
+    margin-right: -110px;
+}
+.section-line{
+    border-bottom: 1px solid var(--neutral-300);
+}
+.brand-history span{
+    border-right: 1px solid var(--neutral-900);
+    padding-right: 4px;
+    margin-right: 4px;
+}
+.brand-history ul{
+    margin-left: -16px;
+    list-style: disc;
+}
+.brand-history{
+    border-bottom: 1px solid var(--neutral-300);
+}
+.brand-concept li{
+    border-left: 3px solid var(--neutral-300) ;
+    margin-left: -40px;
+    padding-left: 12px;
+}
+.brand-concept{
+    border-bottom: 1px solid var(--neutral-300);
+}
+.brand-story a {
+  display: block;
+  border-bottom: 1px solid var(--neutral-900);
+  text-decoration: none; 
+  padding: 8px 0; /* 這樣上下都會有效果 */
+}
+.brand-story{
+    border-bottom: 1px solid var(--neutral-300);
+}
+.footer{
+    text-align: center;
+    background-color: var(--neutral-100);
+}
