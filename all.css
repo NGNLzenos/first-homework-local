@@ -73,7 +73,7 @@ table {
 	--neutral-700:#495057;
 	--neutral-800:#343A40;
 	--neutral-900:#212529;
-	--danger-300:@@;
+	--danger-300:#D74F4F;
 }
 /*標籤基本樣式*/
 *,
@@ -136,6 +136,11 @@ a{
 	padding-right: 12px;
 	width:calc(100%/12*4);
 }
+.col-5{
+		padding-left: 12px;
+	padding-right: 12px;
+	width:calc(100%/12*5);
+}
 .col-6{
 	padding-left: 12px;
 	padding-right: 12px;
@@ -170,6 +175,9 @@ a{
 }
 .flex-wrap{
 	flex-wrap: wrap;
+}
+.text-center{
+	text-align: center;
 }
 .h1{
 	font-size: 40px;
@@ -217,6 +225,9 @@ a{
 .text-neutral-600{
 	color: var(--neutral-600);
 }
+.text-danger{
+	color: var(--danger-300);
+}
 .bg-primary-100{
 	background-color: var(--primary-100);
 }
@@ -235,6 +246,9 @@ a{
 }
 .pr-5{
 	padding-right: 5px;
+}
+.pr-12{
+	padding-right: 12px;
 }
 .py-8{
 	padding-top: 8px;
@@ -303,6 +317,9 @@ a{
 .mr-8{
 	margin-right: 8px;
 }
+.mr-12{
+	margin-right: 12px;
+}
 .mr-24{
 	margin-right: 24px;
 }
@@ -314,4 +331,30 @@ a{
 }
 .g-4{
 	gap: 4px;
+}
+.g-8{
+	gap: 8px;
+}
+.g-24{
+	gap: 24px;
+}
+.pt-40{
+	padding-top: 40px;
+}
+.btn {
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    background-color:transparent;
+}
+.btn-dark{
+	background-color: var(--neutral-900);
+	color: var(--neutral-0);
+}
+.btn-light{
+	border: 1px solid var(--neutral-900);
 }

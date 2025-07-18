@@ -26,3 +26,54 @@
 .price p{
     max-width: 100%;
 }
+.pd-card img{
+    width: 64px; 
+}
+
+.btn-pd-size{
+    border: 1px solid var(--neutral-300);
+    width: 160px;
+}
+.btn-pd-size p{
+   color: var(--neutral-900);
+   font-weight: 500;
+}
+.active{
+    border-color:var(--neutral-900);
+}
+.btn-pd-size:hover{
+      border-color:var(--neutral-900);
+}
+.pd-action{
+    gap: 8px;
+}
+.pd-action .btn{
+    width: 50%;
+}
+.pd-detail {
+    border-bottom:1px solid var(--neutral-300) ;
+}
+.copyright{
+    text-align: center;
+    padding-top: 64px;
+ 
+}
+.copyright p{
+       color: var(--neutral-600);
+       font-weight: 400;
+}
+.link{
+    border-bottom: 1px solid var(--neutral-300);
+}
+.link a{
+    display: block;
+}
+.link a :hover{
+    color: var(--primary-300);
+}
+.banner{
+    margin-left: -312px;
+    margin-right: -312px;
+    background-color: var(--primary-200);
+    text-align: center;
+}
