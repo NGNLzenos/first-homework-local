@@ -71,8 +71,7 @@
     border-bottom: 1px solid var(--neutral-300);
 }
 .brand-story a {
-  border-bottom: 1px solid var(--neutral-900);
-  text-decoration: none; 
+  
   padding: 8px 0; /* 這樣上下都會有效果 */
 }
 .brand-story{
@@ -81,4 +80,28 @@
 .footer{
     text-align: center;
     background-color: var(--neutral-100);
+}
+.copyright{
+    text-align: center;
+    padding-top: 64px;
+ 
+}
+.copyright p{
+       color: var(--neutral-600);
+       font-weight: 400;
+}
+.link{
+    border-bottom: 1px solid var(--neutral-300);
+}
+.link a{
+    display: block;
+}
+.link a :hover{
+    color: var(--primary-300);
+}
+.banner{
+    margin-left: -312px;
+    margin-right: -312px;
+    background-color: var(--primary-200);
+    text-align: center;
 }
