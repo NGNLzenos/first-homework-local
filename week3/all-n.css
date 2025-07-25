@@ -283,6 +283,9 @@ a{
 	padding-top: 64px;
 	padding-bottom: 64px;
 }
+.pe-4{
+	padding-right: 4px;
+}
 .pe-8{
 	padding-right: 8px;
 }
