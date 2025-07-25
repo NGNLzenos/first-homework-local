@@ -55,7 +55,7 @@
     padding-right: 4px;
     margin-right: 4px;
 }
-.brand-history ul{
+.brand-history ol{
     margin-left: -16px;
     list-style: disc;
 }
@@ -71,7 +71,6 @@
     border-bottom: 1px solid var(--neutral-300);
 }
 .brand-story a {
-  display: block;
   border-bottom: 1px solid var(--neutral-900);
   text-decoration: none; 
   padding: 8px 0; /* 這樣上下都會有效果 */
