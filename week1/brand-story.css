@@ -1,5 +1,27 @@
-.header{
-    background-image: url(img/week1/hero.png);
+.w-1296{
+    width: 1296px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header h1{
+    float: left;
+}
+.header h1 a{
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 8px 12px 8px 12px;
+    width: 129px;
+    height: 46px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/6d666caf369e2de99b649ce9fc967d13e36f30b5/2025-week1/logo.svg);
+}
+.header a{
+    margin-left: auto;
+}
+
+.hero{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -7,7 +29,7 @@
     padding-bottom: 151px;
     text-align: center;
 }
-.header h1{
+.hero h1{
     margin-bottom: 16px;
 }
 .block{
