@@ -88,12 +88,12 @@ body {
 }
 .container{
     width: 1296px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 p {
 	font-weight: 500;
   font-size: 16px;
-  font-style: normal;
   letter-spacing: 0.05em;
   color:var(--neutral-900);
 }
@@ -247,10 +247,10 @@ a{
 .p-32{
 	padding: 32px;
 }
-.pr-5{
+.pe-5{
 	padding-right: 5px;
 }
-.pr-12{
+.pe-12{
 	padding-right: 12px;
 }
 .py-8{
@@ -281,7 +281,7 @@ a{
 	padding-top: 64px;
 	padding-bottom: 64px;
 }
-.pr-8{
+.pe-8{
 	padding-right: 8px;
 }
 .pb-4{
@@ -317,19 +317,19 @@ a{
 .mb-64{
 	margin-bottom: 64px;
 }
-.mr-8{
+.me-8{
 	margin-right: 8px;
 }
-.mr-12{
+.me-12{
 	margin-right: 12px;
 }
-.mr-24{
+.me-24{
 	margin-right: 24px;
 }
-.mr-48{
+.me-48{
 	margin-right: 48px;
 }
-.mr-40{
+.me-40{
 	margin-right: 40px;
 }
 .g-4{

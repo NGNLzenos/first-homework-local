@@ -69,9 +69,6 @@ nav span{
 .link{
     border-bottom: 1px solid var(--neutral-300);
 }
-.link a{
-    display: block;
-}
 .link a :hover{
     color: var(--primary-300);
 }

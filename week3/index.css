@@ -1,0 +1,16 @@
+.header h1{
+    float: left;
+}
+.header h1 a{
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 8px 12px 8px 12px;
+    width: 129px;
+    height: 46px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/6d666caf369e2de99b649ce9fc967d13e36f30b5/2025-week1/logo.svg);
+}
+.header a{
+    margin-left: auto;
+}
