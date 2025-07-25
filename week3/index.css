@@ -14,3 +14,16 @@
 .header a{
     margin-left: auto;
 }
+.hero-section{
+    margin-left: -312px;
+    margin-right: -312px;
+}
+.display {
+    
+}
+.display h2{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--neutral-0)
+}
