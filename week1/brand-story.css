@@ -3,10 +3,10 @@
     margin-right: auto;
     margin-left: auto;
 }
-.header h1{
+.nav h1{
     float: left;
 }
-.header h1 a{
+.nav h1 a{
     display: block;
     text-indent: 101%;
     overflow: hidden;
@@ -16,7 +16,7 @@
     height: 46px;
     background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/6d666caf369e2de99b649ce9fc967d13e36f30b5/2025-week1/logo.svg);
 }
-.header a{
+.nav a{
     margin-left: auto;
 }
 
@@ -83,7 +83,7 @@
     border-bottom: 1px solid var(--neutral-300);
 }
 .brand-story a {
-  
+  border-bottom: 2px solid var(--primary-400);
   padding: 8px 0; /* 這樣上下都會有效果 */
 }
 .brand-story{
@@ -116,4 +116,7 @@
     margin-right: -312px;
     background-color: var(--primary-200);
     text-align: center;
+}
+.nav-b{
+    border-bottom: 1px solid var(--neutral-300);
 }
