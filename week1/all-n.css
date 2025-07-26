@@ -379,6 +379,10 @@ a{
 		padding-top: 12px;
 		padding-bottom: 12px;
 	}
+	.py-md-16{
+		padding-top: 16px;
+		padding-bottom: 16px;
+	}
 	.p-md-24{
 		padding: 24px;
 	}
