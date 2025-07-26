@@ -217,6 +217,9 @@ a{
 	.align-start-md{
 		align-items: flex-start;
 	}
+	.d-md-none{
+		display: none;
+	}
 }
 
 @media (max-width:576px) {
@@ -457,6 +460,9 @@ a{
 	.me-md-0{
 		margin-right: 0;
 	}
+	.mb-md-8{
+		margin-bottom: 8px;
+	}
 	.mb-md-12{
 		margin-bottom: 12px;
 	}
@@ -495,6 +501,9 @@ a{
 }
 .pt-40{
 	padding-top: 40px;
+}
+.pt-32{
+	padding-top: 32px;
 }
 .btn {
     border-radius: 4px;
