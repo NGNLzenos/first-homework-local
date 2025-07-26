@@ -38,12 +38,24 @@
 .eng-title{
     font-style: 28px;
 }
+@media (max-width:767px) {
+    .hero{
+        padding: 87px 0;
+        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true);
+    }    
+    .eng-title{
+    font-style: 20px;
+    }
+    .block{
+        text-align: left;
+    }
+}
 .container{
-	width:880px;
+	max-width:880px;
 	margin: 0 auto;
 }
 .intro img{
-    width: 1076px;
+    max-width: 1076px;
     margin-left: -110px;
     margin-right: -110px;
 }

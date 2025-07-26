@@ -210,6 +210,11 @@ a{
 .text-center{
 	text-align: center;
 }
+@media (max-width:576px) {
+	.d-sm-none{
+		display: none;
+	}
+}
 .h1{
 	font-size: 40px;
 	line-height: 1.2;
@@ -359,7 +364,10 @@ a{
 		padding-top: 12px;
 		padding-bottom: 12px;
 	}
-	.py-mb-32{
+	.p-md-24{
+		padding: 24px;
+	}
+	.py-md-32{
 		padding-top: 32px;
 		padding-bottom: 32px;
 	}
