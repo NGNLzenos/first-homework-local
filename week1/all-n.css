@@ -321,6 +321,9 @@ a{
 .p-32{
 	padding: 32px;
 }
+.pe-4{
+	padding-right: 4px;
+}
 .pe-5{
 	padding-right: 5px;
 }

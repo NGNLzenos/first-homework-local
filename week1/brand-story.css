@@ -1,5 +1,5 @@
 .w-1296{
-    width: 1296px;
+    max-width: 1296px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -50,14 +50,17 @@
         text-align: left;
     }
 }
+.bi-person{
+    font-size: 24px;
+}
 .container{
 	max-width:880px;
 	margin: 0 auto;
 }
 .intro img{
     max-width: 1076px;
-    margin-left: -110px;
-    margin-right: -110px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .section-line{
     border-bottom: 1px solid var(--neutral-300);
@@ -81,9 +84,11 @@
 }
 .brand-concept{
     border-bottom: 1px solid var(--neutral-300);
+    
 }
 .brand-story a {
-  border-bottom: 2px solid var(--primary-400);
+  text-decoration: underline;
+  text-underline-offset:8px;
   padding: 8px 0; /* 這樣上下都會有效果 */
 }
 .brand-story{
@@ -112,8 +117,7 @@
     color: var(--primary-300);
 }
 .banner{
-    margin-left: -312px;
-    margin-right: -312px;
+
     background-color: var(--primary-200);
     text-align: center;
 }

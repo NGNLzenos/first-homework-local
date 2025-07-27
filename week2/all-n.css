@@ -334,8 +334,14 @@ a{
 .p-32{
 	padding: 32px;
 }
+.pe-4{
+	padding-right: 4px;
+}
 .pe-5{
 	padding-right: 5px;
+}
+.pe-8{
+	padding-right: 8px;
 }
 .pe-12{
 	padding-right: 12px;
@@ -367,9 +373,6 @@ a{
 .py-64{
 	padding-top: 64px;
 	padding-bottom: 64px;
-}
-.pe-8{
-	padding-right: 8px;
 }
 .pb-4{
 	padding-bottom: 4px;
