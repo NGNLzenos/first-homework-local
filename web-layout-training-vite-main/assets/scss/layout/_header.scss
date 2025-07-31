@@ -1,0 +1,26 @@
+.header ul{
+    margin-right: auto;
+}
+.container .nav a{
+    display: block;
+    padding: 12px;
+}
+.logo{
+    padding: 8px 8px 12px 12px;
+    margin-right: 48px;
+}
+nav a{
+    display: block;
+}
+nav span{
+    color: $neutral-300;
+    padding-left: 12px;
+    margin-right: 12px;
+    font-weight: 700;
+}
+@media(max-width:767px){
+    nav span{
+    padding-left: 8px;
+    margin-right: 8px;
+    }
+}

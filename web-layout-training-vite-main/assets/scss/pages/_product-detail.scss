@@ -1,0 +1,91 @@
+
+.header ul{
+    margin-right: auto;
+}
+.container .nav a{
+    display: block;
+    padding: 12px;
+}
+.logo{
+    padding: 8px 8px 12px 12px;
+    margin-right: 48px;
+}
+.card{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.breadcrumb span{
+    color: var(--neutral-300);
+    padding-left: 12px;
+    margin-right: 12px;
+    font-weight: 700;
+}
+@media(max-width:767px){
+    .breadcrumb span{
+    color: var(--neutral-300);
+    padding-left: 8px;
+    margin-right: 8px;
+    font-weight: 700;
+}
+}
+.price p{
+    max-width: 100%;
+}
+.pd-card img{
+    width: 64px; 
+}
+
+.btn-pd-size{
+    border: 1px solid var(--neutral-300);
+    width: 160px;
+}
+.btn-pd-size p{
+   color: var(--neutral-900);
+   font-weight: 500;
+}
+.active{
+    border-color:var(--neutral-900);
+}
+.btn-pd-size:hover{
+      border-color:var(--neutral-900);
+}
+@media(max-width:767px){
+    .heart-md{
+        width: 48px;
+        height: 48px;
+        border: none;
+    }
+}
+.pd-action{
+    gap: 8px;
+}
+.pd-action .btn{
+    width: 50%;
+}
+.pd-detail {
+    border-bottom:1px solid var(--neutral-300) ;
+}
+.copyright{
+    text-align: center;
+    padding-top: 64px;
+ 
+}
+.copyright p{
+       color: var(--neutral-600);
+       font-weight: 400;
+}
+.link{
+    border-bottom: 1px solid var(--neutral-300);
+}
+.link a{
+    display: block;
+}
+.link a :hover{
+    color: var(--primary-300);
+}
+.banner{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--primary-200);
+    text-align: center;
+}
