@@ -59,10 +59,10 @@
     margin-right: auto;
 }
 .section-line{
-    border-bottom: 1px solid var(--neutral-300);
+    border-bottom: 1px solid $neutral-300;
 }
 .brand-history span{
-    border-right: 1px solid var(--neutral-900);
+    border-right: 1px solid $neutral-900;
     padding-right: 4px;
     margin-right: 4px;
 }
@@ -71,15 +71,15 @@
     list-style: disc;
 }
 .brand-history{
-    border-bottom: 1px solid var(--neutral-300);
+    border-bottom: 1px solid $neutral-300;
 }
 .brand-concept li{
-    border-left: 3px solid var(--neutral-300) ;
+    border-left: 3px solid $neutral-300 ;
     margin-left: -40px;
     padding-left: 12px;
 }
 .brand-concept{
-    border-bottom: 1px solid var(--neutral-300);
+    border-bottom: 1px solid $neutral-300;
     
 }
 .brand-story a {
@@ -88,35 +88,8 @@
   padding: 8px 0; /* 這樣上下都會有效果 */
 }
 .brand-story{
-    border-bottom: 1px solid var(--neutral-300);
-}
-.footer{
-    text-align: center;
-    background-color: var(--neutral-100);
-}
-.copyright{
-    text-align: center;
-    padding-top: 64px;
- 
-}
-.copyright p{
-       color: var(--neutral-600);
-       font-weight: 400;
-}
-.link{
-    border-bottom: 1px solid var(--neutral-300);
-}
-.link a{
-    display: block;
-}
-.link a :hover{
-    color: var(--primary-300);
-}
-.banner{
-
-    background-color: var(--primary-200);
-    text-align: center;
+    border-bottom: 1px solid $neutral-300;
 }
 .nav-b{
-    border-bottom: 1px solid var(--neutral-300);
+    border-bottom: 1px solid $neutral-300;
 }

@@ -110,8 +110,14 @@
 .flex-wrap{
 	flex-wrap: wrap;
 }
+.flex-nowrap{
+	flex-wrap: nowrap;
+}
 .text-center{
 	text-align: center;
+}
+.text-end{
+	text-align: end;
 }
 
 @media(max-width:767px){
@@ -268,6 +274,9 @@
 	color: $primary-400;
 }
 
+.p-8{
+	padding: 8px;
+}
 .p-12{
 	padding: 12px;
 }
@@ -330,6 +339,9 @@
 }
 .pb-24{
 	padding-bottom: 24px;
+}
+.pb-32{
+	padding-bottom: 32px;
 }
 .pb-48{
 	padding-bottom: 48px;
@@ -423,6 +435,9 @@
 .me-12{
 	margin-right: 12px;
 }
+.me-16{
+	margin-right: 16px;
+}
 .me-24{
 	margin-right: 24px;
 }
@@ -434,6 +449,9 @@
 }
 .me-auto{
 	margin-right: auto;
+}
+.ml-auto{
+	margin-left: auto;
 }
 @media (max-width:767px){
 	.me-md-0{
