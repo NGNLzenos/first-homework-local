@@ -20,16 +20,6 @@ nav span{
     margin-right: 8px;
     }
 }
-.btn {
-    border-radius: 4px;
-    padding: 12px 24px;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    background-color:transparent;
-}
 
 .page-item .btn{
     padding: 8px 15px;
@@ -44,10 +34,5 @@ nav span{
 }
 .page-item .active {
         font-weight: 500;
-}
-
-.btn-dark{
-    background-color: $neutral-900;
-    color: $neutral-0;
 }
 

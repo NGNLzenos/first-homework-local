@@ -27,7 +27,13 @@
   padding-left: 200px;
 }
 @media(max-width:767px){
-  
+  .hero-section{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true);
+    padding-top: 155px;
+    padding-bottom: 155px;
+    padding-left: 24px;
+
+  }
 }
 .card-wrapper {
   margin-left: -12px;
