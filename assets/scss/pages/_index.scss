@@ -2,32 +2,36 @@
   background-color: $primary-200;
   width: 50%;
   text-align: center;
-  a{
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
-}
-.header-btn2{
-  background-color: $primary-100;
-  width: 50%;
-  text-align: center;
-  a{
+
+  a {
     padding-top: 12px;
     padding-bottom: 12px;
   }
 }
 
-.hero-section{
+.header-btn2 {
+  background-color: $primary-100;
+  width: 50%;
+  text-align: center;
+
+  a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+.hero-section {
   background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-top:  288px ;
+  padding-top: 288px;
   padding-bottom: 288px;
   padding-left: 200px;
 }
-@media(max-width:767px){
-  .hero-section{
+
+@media(max-width:767px) {
+  .hero-section {
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true);
     padding-top: 155px;
     padding-bottom: 155px;
@@ -35,43 +39,46 @@
 
   }
 }
-.card-wrapper {
-  margin-left: -12px;
-  margin-right: -12px;
-}
-@media(max-width:767px){
-  .card-wrapper{
-    padding-left:6px;
+
+@media(max-width:767px) {
+  .card-wrapper {
+    padding-left: 6px;
     padding-right: 6px;
   }
-  .hotcard-md-row{
+
+  .hotcard-md-row {
     margin-left: -8px;
     margin-right: -8px;
   }
-  .hotcard-md-col{
+
+  .hotcard-md-col {
     min-width: 316px;
     padding-left: 8px;
     padding-right: 8px;
   }
 }
-.sticky{
+
+.sticky {
   background-color: $primary-100;
   color: $primary-400;
-  display:block;
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
   padding: 8px 12px;
 }
-.hot-cardbox{
+
+.hot-cardbox {
   margin-right: -12px;
   margin-left: -12px;
 }
-.hot-card{
+
+.hot-card {
   position: relative;
-  
+
 }
-.sale-banner{
+
+.sale-banner {
   text-align: center;
   background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true);
   background-size: cover;
@@ -79,83 +86,98 @@
   background-position: center;
   position: relative;
   overflow: hidden;
-  .sparkle-img{
+
+  .sparkle-img {
     position: absolute;
     width: 76px;
     top: 274px;
     right: calc(50% - 357px);
   }
-  .star-img{
+
+  .star-img {
     position: absolute;
     width: 48px;
     top: 68px;
     left: calc(50% - 397px);
   }
 }
-@media(max-width:767px){
-  .sale-banner{
-  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true);
-  } 
-  .btn{
+
+@media(max-width:767px) {
+  .sale-banner {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true);
+  }
+
+  .btn {
     padding: 12px 24px;
   }
-  .sparkle-img{
+
+  .sparkle-img {
     bottom: 104px;
     right: -28px;
   }
-  .star-img{
+
+  .star-img {
     top: 36px;
     left: -20px;
   }
 }
 
-.btn-primary{
+.btn-primary {
   background-color: $primary-300;
 }
-.series{
+
+.series {
   position: relative;
 
-  .ser-text{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background-color:rgba(black,0.4);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  .ser-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(black, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
-.inspiration-row{
+
+.inspiration-row {
   display: flex;
   flex-wrap: wrap;
   margin: -4px;
 }
-.inspiration-col-4{
+
+.inspiration-col-4 {
   width: calc(100%/12*4);
   padding: 4px;
 }
-.inspiration-col-6{
+
+.inspiration-col-6 {
   width: calc(100%/12*6);
   padding: 4px;
 }
-.inspiration-col-12{
+
+.inspiration-col-12 {
   width: 100%;
   padding: 4px;
 }
-@media (max-width:767px){
-  .inspiration-row{
+
+@media (max-width:767px) {
+  .inspiration-row {
     flex-wrap: nowrap;
     margin: 0 -8px;
-    img{
-      min-width :300px; ;
+
+    img {
+      min-width: 300px;
+      ;
     }
   }
+
   .inspiration-col-4,
   .inspiration-col-6,
-  .inspiration-col-12{
+  .inspiration-col-12 {
     width: unset;
     padding: 0 8px;
   }

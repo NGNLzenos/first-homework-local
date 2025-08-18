@@ -1,8 +1,8 @@
-
-.nav h1{
+.nav h1 {
     float: left;
 }
-.nav h1 a{
+
+.nav h1 a {
     display: block;
     text-indent: 101%;
     overflow: hidden;
@@ -12,11 +12,12 @@
     height: 46px;
     background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/6d666caf369e2de99b649ce9fc967d13e36f30b5/2025-week1/logo.svg);
 }
-.nav a{
+
+.nav a {
     margin-left: auto;
 }
 
-.hero{
+.hero {
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,71 +26,88 @@
     padding-bottom: 151px;
     text-align: center;
 }
-.hero h1{
+
+.hero h1 {
     margin-bottom: 16px;
 }
-.block{
+
+.block {
     text-align: center;
 }
-.eng-title{
+
+.eng-title {
     font-style: 28px;
 }
+
 @media (max-width:767px) {
-    .hero{
+    .hero {
         padding: 87px 0;
         background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true);
-    }    
-    .eng-title{
-    font-style: 20px;
     }
-    .block{
+
+    .eng-title {
+        font-style: 20px;
+    }
+
+    .block {
         text-align: left;
     }
 }
-.bi-person{
+
+.bi-person {
     font-size: 24px;
 }
-.story-container{
-	max-width:880px;
-	margin: 0 auto;
+
+.story-container {
+    max-width: 880px;
+    margin: 0 auto;
 }
-.intro img{
+
+.intro img {
     max-width: 1076px;
     margin-left: auto;
     margin-right: auto;
 }
-.section-line{
+
+.section-line {
     border-bottom: 1px solid $neutral-300;
 }
-.brand-history span{
+
+.brand-history span {
     border-right: 1px solid $neutral-900;
     padding-right: 4px;
     margin-right: 4px;
 }
-.brand-history ol{
-    margin-left: -16px;
+
+.brand-history ol {
     list-style: disc;
 }
-.brand-history{
+
+.brand-history {
     border-bottom: 1px solid $neutral-300;
 }
-.brand-concept li{
+
+.brand-concept li {
     border-left: 3px solid $neutral-300 ;
-    margin-left: -40px;
     padding-left: 12px;
 }
-.brand-concept{
+
+.brand-concept {
     border-bottom: 1px solid $neutral-300;
-    
+
 }
+
 .brand-story a {
-  text-decoration: underline;
-  text-underline-offset:8px;
-  padding: 8px 0; /* 這樣上下都會有效果 */
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    padding: 8px 0;
+    /* 這樣上下都會有效果 */
 }
-.brand-story{
+
+.brand-story {
     border-bottom: 1px solid $neutral-300;
 }
-.nav-b{
+
+.nav-b {
     border-bottom: 1px solid $neutral-300;
 }

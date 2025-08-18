@@ -1,11 +1,13 @@
-.collecttion-container{
-    max-width: 636px; 
+.collecttion-container {
+    max-width: 660px;
     margin-right: auto;
     margin-left: auto;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
-.check-style{
-    background-color:$primary-300;
+.check-style {
+    background-color: $primary-300;
     color: $primary-500;
     border-radius: 50%;
     font-size: 20px;
@@ -15,25 +17,30 @@
     justify-content: center;
     align-items: center;
 }
-.coll-banner{
+
+.coll-banner {
     color: $primary-400;
     background-color: $primary-100;
     padding: 16px;
     display: flex;
     align-items: center;
 }
-.coll-banner p{
+
+.coll-banner p {
     color: $primary-400;
 }
-.truck-style{
+
+.truck-style {
     font-size: 24px;
 }
-.pd-info img{
+
+.pd-info img {
     width: 120px;
     height: 120px;
     margin-right: 16px;
     margin-left: 0px;
 }
-.pd-info{
+
+.pd-info {
     border-bottom: 1px solid $neutral-300;
 }
