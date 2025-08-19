@@ -3,13 +3,13 @@
 /*引入 boostrap icon*/
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
-@import './helper/variables' ;
-@import './helper/utils' ;
+@import './helper/variables';
+@import './helper/utils';
 
 @import'./base/reset';
 @import'./base/base';
 
-@import'./componets/btn';
+@import'./components/btn';
 
 @import './layout/header';
 @import './layout/footer';
